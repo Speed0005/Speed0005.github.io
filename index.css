@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("bg.png");
+    background-color: rgba(0, 0, 0, 0.895);
+    background-size: cover;
+}
+a{
+    color: cornflowerblue;
+}
+.upper{
+    background-color: rgb(36, 36, 36);
+    color: white;
+    border-radius: 5px;
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    background-color: #3f3f3f;
+    border-radius: 5px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover {
+    background-color: white;
+    color: black;
+  }
+.navbar a.active {
+    background-color: black;
+    color: white;
+    border-bottom: 3px solid blue;
+}
+
+.news{
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    border-radius: 5px;
+}
+.news div{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    border-radius: 5px;
+}
+
+.projects{
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    border-radius: 5px;
+}
+.projects div{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    border-radius: 5px;
+}
+
+#selected{
+    border-bottom: 3px solid blue;
+}
+
+.date{
+    font-size: 10pt;
+    color: rgb(114, 114, 114);
+    font-style: italic;
+}
+
+.defdiv{
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    border-radius: 5px;
+}
+.defdiv div{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    border-radius: 5px;
+}
+.contactdiv a{
+    color: white;
+    background-color: rgb(77, 77, 77);
+    border-radius: 5px;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    padding: 13px 15px;
+    text-decoration: none;
+}
+.contactdiv a:hover{
+    color: black;
+    background-color: white;
+}
+.unavaiable{
+    border: 3px dotted red;
+}
